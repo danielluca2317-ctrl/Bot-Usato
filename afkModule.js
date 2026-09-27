@@ -91,7 +91,7 @@ function setupAfkModule(client, options) {
       logInfo(`${member.user.tag} spostato in AFK (${afkChannelId}) per inattività.`);
  
       try {
-        await member.send('Ou si parla in vocale, non ci si sega!');
+        await member.send('Negro si parla in vocale, non ci si sega!');
       } catch (dmErr) {
         logInfo(`Impossibile inviare DM a ${member.user.tag} (probabilmente DM chiusi).`);
       }
