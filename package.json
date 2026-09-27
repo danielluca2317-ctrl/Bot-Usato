@@ -1,0 +1,13 @@
+{
+  "name": "outlet-bot",
+  "version": "2.0.0",
+  "description": "Bot Discord - legge/scrive lo stesso Postgres usato dal sito",
+  "main": "index.js",
+  "scripts": {
+    "start": "node deploy-commands.js && node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "pg": "^8.12.0"
+  }
+}
